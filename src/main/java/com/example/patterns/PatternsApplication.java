@@ -1,7 +1,6 @@
 package com.example.patterns;
 
-import com.example.patterns.creational.abstractFactory.banking.BankingProject;
-import com.example.patterns.creational.abstractFactory.website.WebsiteProject;
+import com.example.patterns.creational.abstractFactory.AbstractFactoryProgram;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -11,13 +10,8 @@ public class PatternsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PatternsApplication.class, args);
 
-		BankingProject bankingProject = new BankingProject();
-		bankingProject.start();
+		new AbstractFactoryProgram();
 
-		System.out.println("_________________________");
-
-		WebsiteProject websiteProject = new WebsiteProject();
-		websiteProject.start();
 	}
 
 }
