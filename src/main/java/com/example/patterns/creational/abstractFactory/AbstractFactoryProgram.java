@@ -1,6 +1,6 @@
 package com.example.patterns.creational.abstractFactory;
 
-import com.example.patterns.creational.Program;
+import com.example.patterns.Program;
 import com.example.patterns.creational.abstractFactory.banking.BankingProject;
 import com.example.patterns.creational.abstractFactory.website.WebsiteProject;
 

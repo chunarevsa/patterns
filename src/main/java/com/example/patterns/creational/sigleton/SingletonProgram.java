@@ -1,6 +1,6 @@
 package com.example.patterns.creational.sigleton;
 
-import com.example.patterns.creational.Program;
+import com.example.patterns.Program;
 
 public class SingletonProgram implements Program {
     @Override

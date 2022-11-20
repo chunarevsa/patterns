@@ -1,6 +1,6 @@
 package com.example.patterns.creational.factoryMethod;
 
-import com.example.patterns.creational.Program;
+import com.example.patterns.Program;
 
 public class FactoryMethodProgram implements Program {
     @Override
