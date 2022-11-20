@@ -3,6 +3,7 @@ package com.example.patterns;
 import com.example.patterns.creational.abstractFactory.AbstractFactoryProgram;
 import com.example.patterns.creational.builder.BuilderProgram;
 import com.example.patterns.creational.factoryMethod.FactoryMethodProgram;
+import com.example.patterns.creational.prototype.PrototypeProgram;
 import com.example.patterns.creational.sigleton.SingletonProgram;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,6 +18,7 @@ public class PatternsApplication {
 		new SingletonProgram();
 		new FactoryMethodProgram();
 		new BuilderProgram();
+		new PrototypeProgram();
 
 	}
 
