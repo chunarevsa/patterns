@@ -13,7 +13,7 @@ public class AbstractFactoryProgram implements Program {
 
         WebsiteProject websiteProject = new WebsiteProject();
         websiteProject.start();
-        System.out.println("AbstractFactoryProgram is finishing");
+        System.out.println("AbstractFactoryProgram is finishing \n");
     }
 
     public AbstractFactoryProgram() {

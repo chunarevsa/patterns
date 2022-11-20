@@ -1,6 +1,7 @@
 package com.example.patterns;
 
 import com.example.patterns.creational.abstractFactory.AbstractFactoryProgram;
+import com.example.patterns.creational.sigleton.SingletonProgram;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -11,6 +12,7 @@ public class PatternsApplication {
 		SpringApplication.run(PatternsApplication.class, args);
 
 		new AbstractFactoryProgram();
+		new SingletonProgram();
 
 	}
 
