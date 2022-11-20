@@ -1,4 +1,4 @@
-package com.example.patterns.structural;
+package com.example.patterns.structural.adapter;
 
 import com.example.patterns.Program;
 
