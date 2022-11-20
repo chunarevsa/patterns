@@ -11,7 +11,7 @@ public class SingletonProgram implements Program {
         logger.addLogInfo("Second logInfo");
         logger.addLogInfo("Third logInfo");
         logger.showLogFile();
-        System.out.println("SingletonProgram finished \n");
+        System.out.println("SingletonProgram is finishing \n");
 
     }
 
