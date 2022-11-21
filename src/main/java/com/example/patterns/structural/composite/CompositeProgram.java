@@ -16,7 +16,7 @@ public class CompositeProgram implements Program {
         team.addDeveloper(javaDev2);
         team.addDeveloper(cppDev);
 
-        team.createProject();
+        team.writeCode();
         System.out.println("CompositeProgram is finishing \n");
     }
 
