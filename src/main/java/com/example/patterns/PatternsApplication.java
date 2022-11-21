@@ -7,6 +7,7 @@ import com.example.patterns.creational.prototype.PrototypeProgram;
 import com.example.patterns.creational.sigleton.SingletonProgram;
 import com.example.patterns.structural.adapter.AdapterProgram;
 import com.example.patterns.structural.bridge.BridgeProgram;
+import com.example.patterns.structural.composite.CompositeProgram;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -24,6 +25,7 @@ public class PatternsApplication {
 
 		new AdapterProgram();
 		new BridgeProgram();
+		new CompositeProgram();
 
 	}
 
