@@ -10,6 +10,7 @@ import com.example.patterns.structural.bridge.BridgeProgram;
 import com.example.patterns.structural.composite.CompositeProgram;
 import com.example.patterns.structural.decorator.DecoratorProgram;
 import com.example.patterns.structural.facade.FacadeProgram;
+import com.example.patterns.structural.flyweight.FlyweightProgram;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -30,6 +31,7 @@ public class PatternsApplication {
 		new CompositeProgram();
 		new DecoratorProgram();
 		new FacadeProgram();
+		new FlyweightProgram();
 
 	}
 
