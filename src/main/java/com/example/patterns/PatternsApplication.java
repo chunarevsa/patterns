@@ -5,6 +5,7 @@ import com.example.patterns.creational.builder.BuilderProgram;
 import com.example.patterns.creational.factoryMethod.FactoryMethodProgram;
 import com.example.patterns.creational.prototype.PrototypeProgram;
 import com.example.patterns.creational.sigleton.SingletonProgram;
+import com.example.patterns.structural.proxy.ProxyProgram;
 import com.example.patterns.structural.adapter.AdapterProgram;
 import com.example.patterns.structural.bridge.BridgeProgram;
 import com.example.patterns.structural.composite.CompositeProgram;
@@ -32,6 +33,7 @@ public class PatternsApplication {
 		new DecoratorProgram();
 		new FacadeProgram();
 		new FlyweightProgram();
+		new ProxyProgram();
 
 	}
 
